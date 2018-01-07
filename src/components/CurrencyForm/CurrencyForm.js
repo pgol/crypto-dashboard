@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
+import cryptoService from '../../service/crypto-service';
 import './CurrencyForm.css'
 
 import { Button, Form, Input, Select } from 'antd';
@@ -32,7 +33,7 @@ class CurrencyForm extends Component {
     const { getFieldDecorator } = this.props.form;
     return (
       <Form onSubmit={this.handleSubmit} className="CurrencyForm-wrapper">
-        
+
         <FormItem className="CurrencyForm-item">
         {getFieldDecorator('currency', {
             rules: [{ required: true, message: 'Please input your currency!' }],
