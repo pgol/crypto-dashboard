@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d158cb6-fa37-4851-97ec-70aaca21608b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mocks/curriencies.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -18,7 +17,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.37380952">
       <split-first>
         <leaf>
           <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
@@ -33,36 +32,33 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/App/App.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="42">
-                  <caret line="2" column="56" lean-forward="false" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+                <state relative-caret-position="189">
+                  <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
                   <folding>
-                    <marker date="1515328850764" expanded="true" signature="7:116" ph="..." />
-                    <marker date="1515328850764" expanded="true" signature="146:282" ph="{...}" />
-                    <marker date="1515328850764" expanded="true" signature="159:280" ph="{...}" />
-                    <marker date="1515328850764" expanded="true" signature="180:269" ph="&lt;div/&gt;" />
+                    <element signature="e#0#39#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/.gitignore">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="441">
-                  <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+                <state relative-caret-position="252">
+                  <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/index.css">
+          <file leaf-file-name="curriencies.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/mocks/curriencies.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="-598">
+                  <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
                   <folding />
                 </state>
               </provider>
@@ -137,8 +133,8 @@
           <file leaf-file-name="CurrencyForm.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/CurrencyForm/CurrencyForm.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="63">
-                  <caret line="4" column="51" lean-forward="true" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+                <state relative-caret-position="714">
+                  <caret line="34" column="48" lean-forward="false" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
                   <folding>
                     <element signature="e#0#39#0" expanded="true" />
                   </folding>
@@ -190,7 +186,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/components/App.js" />
         <option value="$PROJECT_DIR$/src/components/App/App.css" />
-        <option value="$PROJECT_DIR$/src/components/App/App.js" />
         <option value="$PROJECT_DIR$/src/components/CurrencyForm/CurrencyForm.css" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.flowconfig" />
@@ -202,6 +197,8 @@
         <option value="$PROJECT_DIR$/src/service/crypto-service-factory.js" />
         <option value="$PROJECT_DIR$/src/components/CurrencyForm/CurrencyForm.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/mocks/curriencies.js" />
+        <option value="$PROJECT_DIR$/src/components/App/App.js" />
       </list>
     </option>
   </component>
@@ -285,7 +282,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
+              <option name="myItemId" value="mocks" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -304,6 +301,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CurrencyForm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crypto-dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crypto-dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -441,18 +464,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1515327418906</updated>
-      <workItem from="1515327420516" duration="4754000" />
+      <workItem from="1515327420516" duration="5028000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4754000" />
+    <option name="totallyTimeSpent" value="5028000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="878" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -528,19 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/App/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="56" lean-forward="false" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
-          <folding>
-            <marker date="1515328850764" expanded="true" signature="7:116" ph="..." />
-            <marker date="1515328850764" expanded="true" signature="146:282" ph="{...}" />
-            <marker date="1515328850764" expanded="true" signature="159:280" ph="{...}" />
-            <marker date="1515328850764" expanded="true" signature="180:269" ph="&lt;div/&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/CurrencyForm/CurrencyForm.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -589,16 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/CurrencyForm/CurrencyForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="4" column="51" lean-forward="true" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/service/crypto-service.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -611,9 +610,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        <state relative-caret-position="252">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CurrencyForm/CurrencyForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="34" column="48" lean-forward="false" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mocks/curriencies.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-598">
+          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/App/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
