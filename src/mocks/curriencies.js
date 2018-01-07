@@ -1,4 +1,4 @@
-export default [
+const currencies = [
   {
     "id": "bitcoin",
     "name": "Bitcoin",
@@ -200,3 +200,5 @@ export default [
     "market_cap_pln": "36989836213.0"
   }
 ];
+
+export default currencies;

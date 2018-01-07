@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
+import _ from 'lodash'
 import './App.css';
 import CurrencyForm from '../CurrencyForm/CurrencyForm';
 import CurrencyTable from '../CurrencyTable/CurrencyTable';
 
 import currencies from '../../mocks/curriencies';
-import getExpense from '../../mocks/expense';
+import expense from '../../mocks/expense';
 
 //mock data just for now
 const symbols = currencies.map(({id, name}) => ({
@@ -13,18 +14,34 @@ const symbols = currencies.map(({id, name}) => ({
 }));
 //same here
 const expenses = [
-  getExpense(),
-  getExpense({
+  expense,
+  Object.assign({}, expense, {
     currency: 'ADA',
-    expense: 100,
+    expense: 0.5,
     quantity: 2
   }),
-  getExpense({
-    currency: 'ETH',
-    expense: 2314214,
-    quantity: 20
-  })
+  Object.assign({}, expense, {
+    currency: 'BTC',
+    expense: 10000,
+    quantity: 3
+  }),
 ];
+
+//TODO move logic to separate component
+//calculating data for table
+const tableData = expenses.map(expense => {
+  const coin = currencies.find(currency => {
+    return currency.symbol === expense.currency;
+  });
+  if (!coin) return {};
+  return {
+    name: expense.currency,
+    price: coin.price_usd,
+    profit:
+      Number(coin.price_usd * expense.quantity - expense.expense * expense.quantity).toFixed(2)
+  }
+});
+
 
 class App extends Component {
   render() {
@@ -32,7 +49,7 @@ class App extends Component {
       <div className="App">
         <h1>Crypto Świry</h1>
         <CurrencyForm currencies={symbols}/>
-        <CurrencyTable expenses={expenses}/>
+        <CurrencyTable expenses={tableData}/>
       </div>
     );
   }

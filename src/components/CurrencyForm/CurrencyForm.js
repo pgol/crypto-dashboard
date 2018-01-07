@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import cryptoService from '../../service/crypto-service';
 import './CurrencyForm.css'
 
 import { Button, Form, Input, Select } from 'antd';
