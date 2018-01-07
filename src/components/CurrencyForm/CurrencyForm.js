@@ -26,6 +26,7 @@ class CurrencyForm extends Component {
       if (!err) {
         console.log('Received values of form: ', values);
       }
+      console.log(this.props);
     });
   }
 
@@ -33,7 +34,6 @@ class CurrencyForm extends Component {
     const { getFieldDecorator } = this.props.form;
     return (
       <Form onSubmit={this.handleSubmit} className="CurrencyForm-wrapper">
-
         <FormItem className="CurrencyForm-item">
         {getFieldDecorator('currency', {
             rules: [{ required: true, message: 'Please input your currency!' }],
