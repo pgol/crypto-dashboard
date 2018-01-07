@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './CurrencyTable.css'
+import tableData from '../../mocks/curriencies';
 
 import { Table } from 'antd';
 

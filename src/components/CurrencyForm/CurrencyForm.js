@@ -70,10 +70,10 @@ class CurrencyForm extends Component {
         )}
         </FormItem>
         <FormItem className="CurrencyForm-item">
-        {getFieldDecorator('value', {
-            rules: [{ required: true, message: 'Please input value of coin!' }],
+        {getFieldDecorator('rate', {
+            rules: [{ required: true, message: 'Please input Rate of coin!' }],
           })(
-          <Input placeholder="Value at buy" />
+          <Input placeholder="Rate at buy" />
         )}
         </FormItem>
         <div className="CurrencyForm-item">
