@@ -6,10 +6,7 @@ const expense = {
   rate: 4.01,
 };
 
-export const getExpense = (args) => ({
-  expense,
-  ...args
-});
+export const getExpense = (args) => Object.assign({}, expense, args);
 
 export default expense;
 
