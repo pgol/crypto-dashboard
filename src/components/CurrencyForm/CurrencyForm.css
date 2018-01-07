@@ -1,0 +1,12 @@
+.CurrencyForm-wrapper {
+    display: flex;
+}
+.CurrencyForm-item {
+    margin: 10px 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .CurrencyForm-wrapper {
+        flex-direction: column;
+    }
+}

@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
+import './CurrencyForm.css'
 
 import { Input } from 'antd';
 import { Select } from 'antd';
+import { Button } from 'antd';
+
 
 
 const Option = Select.Option;
@@ -26,10 +29,10 @@ class CurrencyForm extends Component {
         <div className="CurrencyForm-item">
           <Input placeholder="Basic usage" />
         </div>
-        <div>
+        <div className="CurrencyForm-item">
           <Input placeholder="Basic usage" />
         </div>
-        <div>
+        <div className="CurrencyForm-item">
           <Select
             showSearch
             style={{ width: 200 }}
@@ -45,7 +48,12 @@ class CurrencyForm extends Component {
             <Option value="tom">Tom</Option>
           </Select>
         </div>
+        <div className="CurrencyForm-item">
+          <Button type="primary">Primary</Button>
+        </div>
       </div>
     )
   }
 }
+
+export default CurrencyForm;
