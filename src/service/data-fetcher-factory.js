@@ -12,3 +12,5 @@ function makeDataFetcher({fetch, baseUrl} : {baseUrl: string, fetch: Object}) {
 }
 
 export default makeDataFetcher;
+
+
